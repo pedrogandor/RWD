@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soluções Tecnológicas para a Gestão Sustentável dos Oceanos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        .solution {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .solution-item {
+            margin: 20px;
+            text-align: center;
+            max-width: 300px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s;
+        }
+
+        .solution-item:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .solution-item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .solution-item h2 {
+            color: #333;
+            margin-top: 10px;
+        }
+
+        .solution-item p {
+            color: #666;
+        }
+
+        .details {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .details h3 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        .details p {
+            color: #333;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Soluções Tecnológicas para a Gestão Sustentável dos Oceanos</h1>
+        <div class="button" onclick="showDetails()">Conheça nossas soluções</div>
+        <div class="solution" id="solutions">
+            <div class="solution-item">
+                <img src="https://via.placeholder.com/300" alt="Ocean Solution 1">
+                <h2>Solução 1</h2>
+                <p>Descrição da solução 1.</p>
+            </div>
+            <div class="solution-item">
+                <img src="https://via.placeholder.com/300" alt="Ocean Solution 2">
+                <h2>Solução 2</h2>
+                <p>Descrição da solução 2.</p>
+            </div>
+            <div class="solution-item">
+                <img src="https://via.placeholder.com/300" alt="Ocean Solution 3">
+                <h2>Solução 3</h2>
+                <p>Descrição da solução 3.</p>
+            </div>
+        </div>
+        <div class="details" id="solutionDetails" style="display: none;">
+            <h3>Detalhes da Solução</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi non risus laoreet pharetra
+                vitae nec sem. Sed feugiat, libero ut malesuada luctus, velit sapien posuere dolor, vel aliquam velit
+                mauris nec justo.
+            </p>
+            <p>
+                Nulla facilisi. Suspendisse ullamcorper ligula vitae risus feugiat, sed consectetur velit
+                tincidunt. Mauris id lectus non lacus elementum efficitur. Aliquam erat volutpat.
+            </p>
+        </div>
+    </div>
+    <script>
+        function showDetails() {
+            var detailsDiv = document.getElementById("solutionDetails");
+            detailsDiv.style.display = "block";
+        }
+    </script>
+</body>
+</html>
